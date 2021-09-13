@@ -1,9 +1,7 @@
 ans = input()
-
 strike = 0
 ball = 0
 trial_n = 0
-
 while trial_n < 10:
     strike = 0
     ball = 0
@@ -18,5 +16,6 @@ while trial_n < 10:
     print(trial_n, "of 10 trial", strike, "strike", ball, "ball")
     if strike == len(ans):
         print("Correct! answer =", ans)
+        break
 else:
     print("You failed!")
